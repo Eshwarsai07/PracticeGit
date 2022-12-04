@@ -1,0 +1,10 @@
+git remote add origin URL -- origin name of the remote may be anything
+git remote -v             -- gives number of remotes
+git add .                 -- adds the changes to stagging area
+git commit -m "comment"   -- commits to local rep with comment
+git status
+git push origin main      -- main brach name origin is remote name
+git stash                 -- store in bachstage so that it is not commited in project before doing it we need to first send the changes to staging area using git add . 
+git stash pop             -- retrieving stash operations then git add .
+
+
