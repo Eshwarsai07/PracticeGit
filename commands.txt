@@ -6,5 +6,11 @@ git status
 git push origin main      -- main brach name origin is remote name
 git stash                 -- store in bachstage so that it is not commited in project before doing it we need to first send the changes to staging area using git add . 
 git stash pop             -- retrieving stash operations then git add .
+git ls-files              -- gives list of files git is tracking 
+
+NOTE: WE SHOULD ALWAYS PULL FIRST BEFORE PUSHING THE CHANGES THIS IS THE BEST PRACTICE.
+
+git pull origin branchname   -- does(fetch+merge)
+git push origin branchname   -- push to the remote branch
 
 
