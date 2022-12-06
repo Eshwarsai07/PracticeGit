@@ -14,4 +14,5 @@ git pull origin branchname   -- does(fetch+merge)
 git push origin branchname   -- push to the remote branch
 git branch -d branchname     -- to delete a branch
 
+git log                      -- gives hist of commits of a branch including the histry of common commit
 
